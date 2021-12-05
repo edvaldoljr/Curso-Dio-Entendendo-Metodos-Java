@@ -21,5 +21,14 @@ public class Main {
         Emprestimo.calcular(1000, Emprestimo.getDuasParcelas());
         Emprestimo.calcular(1000, Emprestimo.getTresParcelas());
         Emprestimo.calcular(1000,5);
+
+        //Conta
+        Conta conta = new Conta();
+        //DEFINE UM VALOR DE SALDO
+        conta.setSaldo(633.00);
+        //DEFINE VALOR PARA DEPOSITAR
+        conta.depositar(555.0);
+        //RESGATA VALOR
+        conta.verificarSaldo();
     }
 }
